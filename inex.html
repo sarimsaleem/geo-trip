@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script></script>
+
+    <style>
+        nav {
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .btn {
+            background: rgb(187, 9, 9);
+        }
+
+        .carousel-caption {
+            padding-bottom: 25rem;
+        }
+
+        .container .mt-5 .pt-5 {
+            background-color: rgb(210, 218, 218);
+        }
+
+        li {
+            list-style: none;
+            color: #082555;
+        }
+
+        ul {
+            color: #728cb6;
+
+        }
+
+        @media screen {}
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand  mx-3" href="#"><img src="img/logo.png" alt="" width="150"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black mx-3" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-3 text-black" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Listing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-3 text-black" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-3 text-black" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-3" href="#">Docs</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <button class="btn text-black mx-2" style="background: #ebeff2;">INR</button>
+                    <button class="btn text-white  mx-2" style="background: #ebeff2;"><img src="img/1.webp" width="20"
+                            alt=""></button>
+                    <button class="btn text-white mx-2" type="submit">Sign In / Register</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/crousel.jpg" class="d-block w-100" alt="..." height="600">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5 class="fs-1 fw-bolder">Start Your Trip With GeoTrip</h5>
+                    <p class="fw-bolder fs-5">Take a little break from the work strss of everyday. Discover plan trip
+                        and explore beautiful destinations.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row g-3 ">
+            <div class="col-12 col-md-6 col-lg-3  ">
+                <div class="card border-white">
+                    <i class="fa-solid fa-sack-dollar fs-1 text-danger mx-2 mt-3"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Easy Booking</h5>
+
+                        <p class="card-text">Cicero famously orated against his political opponent Lucius Sergius
+                            Catilina. Occasionally the first Oration against Catiline.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <i class="fa-solid fa-umbrella-beach fs-1 text-danger mx-2 mt-3"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Best Destinations</h5>
+                        <p class="card-text">Cicero famously orated against his political opponent Lucius Sergius
+                            Catilina. Occasionally the first Oration against Catiline. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <i class="fa-solid fa-person-walking-luggage fs-1 text-danger mx-2 mt-3"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Travel Guides</h5>
+                        <p class="card-text">Cicero famously orated against his political opponent Lucius Sergius
+                            Catilina. Occasionally the first Oration against Catiline. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <i class="fa-solid fa-headset fs-1 text-danger mx-2 mt-3"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Friendly Support</h5>
+                        <p class="card-text">Cicero famously orated against his political opponent Lucius Sergius
+                            Catilina. Occasionally the first Oration against Catiline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mt-5">
+    <h1 class="text-center" style="color: rgb(4, 9, 82);">Explore Popular Destination
+    </h1>
+
+    <p class="text-center" style="color: rgb(4, 9, 82);">Cicero famously orated against his political opponent Lucius
+        Sergius Catilina. </p>
+
+    <div class="container   mt-5">
+        <div class="row g-3 ">
+            <div class="col-12 col-md-6 col-lg-3 border-white ">
+                <div class="card border-white">
+                    <img src="img/n.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">New York
+                        </h5>
+
+                        <p class="card-text text-center mt-3">10 Destinations 5 Hotels
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/l.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3 ">Las Vegas</h5>
+                        <p class="card-text text-center mt-3">06 Destinations 14 Hotels
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/s.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">San Antonio
+                        </h5>
+                        <p class="card-text text-center mt-3">06 Destinations 14 Hotels
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/h.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Houston
+                        </h5>
+                        <p class="card-text text-center mt-3">06 Destinations 14 Hotels
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container   mt-5">
+        <div class="row g-3 ">
+            <div class="col-12 col-md-6 col-lg-3 border-white ">
+                <div class="card border-white">
+                    <img src="img/sa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">New York
+                        </h5>
+
+                        <p class="card-text text-center mt-3">14 Destinations 10 Hotels </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/na.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Las Vegas</h5>
+                        <p class="card-text text-center mt-3">06 Destinations 14 Hotels </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/ph.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">San Antonio
+                        </h5>
+                        <p class="card-text text-center mt-3">14 Destinations 10 Hotels
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-white">
+                    <img src="img/h.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Houston
+                        </h5>
+                        <p class="card-text text-center mt-3">12 Destinations 32 Hotels </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont  mt-5 mb-5 " style="background-color: rgb(232, 240, 240);">
+        <div class="container mt-5 pt-5">
+            <h1 class="text-center"> Explore Popular Routes
+            </h1>
+            <p class="text-center mt-3"> Cicero famously orated against his political opponent Lucius Sergius Catilina.
+
+            </p>
+            <div class="row g-3 ">
+                <div class="col-12 col-md-6 col-lg-3 border-white ">
+                    <div class="card  border-none mt-3 mb-2">
+                        <img src="image/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">New York
+                            </h5>
+
+                            <p class="card-text text-center mt-3">14 Destinations 10 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card  border-none  mt-3 mb-2">
+                        <img src="image/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">Las Vegas</h5>
+                            <p class="card-text text-center mt-3">06 Destinations 14 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card  border-none  mt-3 mb-2">
+                        <img src="image/22.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">San Antonio
+                            </h5>
+                            <p class="card-text text-center mt-3">14 Destinations 10 Hotels
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card bord border-noneer-white mt-3 mb-2">
+                        <img src="image/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">Houston
+                            </h5>
+                            <p class="card-text text-center mt-3">12 Destinations 32 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-3 ">
+                <div class="col-12 col-md-6 col-lg-3 border-white ">
+                    <div class="card mt-3 mb-2 border-none">
+                        <img src="image/5.jpg " class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">New York
+                            </h5>
+
+                            <p class="card-text text-center mt-3">14 Destinations 10 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-none mt-3 mb-2">
+                        <img src="image/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">Las Vegas</h5>
+                            <p class="card-text text-center mt-3">06 Destinations 14 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card  border-none  mt-3 mb-2">
+                        <img src="image/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">San Antonio
+                            </h5>
+                            <p class="card-text text-center mt-3">14 Destinations 10 Hotels
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card  border-none  mt-3 mb-2">
+                        <img src="image/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-3">Houston
+                            </h5>
+                            <p class="card-text text-center mt-3">12 Destinations 32 Hotels </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn p-2 g-col-6 text-white mt-5 mb-5 p-auto  px-5">Explore More<i
+                    class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+        </div>
+    </div>
+
+    <div class="contain d-flex">
+        <div class="container mx-5">
+            <img src="image/MAIN.png" class="img-fluid mx-5" alt="..." width="400">
+        </div>
+
+
+        <div class="container mt-5 ">
+            <div class="row g-3 ">
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="card border-white">
+                        <i class="fa-solid fa-gift fa-2xl mx-4 " style="color: #d32a17;"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Get Superb Deals
+                            </h5>
+
+                            <p class="card-text">Just fill up a page with draft copy about the client’s business and
+                                they will actually read it and comment on it. They will be drawn to it, fiercely. Do
+                                it the wrong way. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="card border-white">
+                        <i class="fa-solid fa-gift fa-2xl mx-4" style="color: #e5f50a;"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title mt-3">100% Transparency Price
+                            </h5>
+                            <p class="card-text">Just fill up a page with draft copy about the client’s business and
+                                they will actually read it and comment on it. They will be drawn to it, fiercely. Do
+                                it the wrong way. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="card border-white">
+                        <i class="fa-solid fa-gift fa-2xl mx-4" style="color: #0ef50a;"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Travel Guides</h5>
+                            <p class="card-text">Just fill up a page with draft copy about the client’s business and
+                                they will actually read it and comment on it. They will be drawn to it, fiercely. Do
+                                it the wrong way. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="card border-white">
+                        <i class="fa-solid fa-gift fa-2xl mx-4" style="color: #2e96d6;"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Travel With Confidence
+                            </h5>
+                            <p class="card-text">Just fill up a page with draft copy about the client’s business and
+                                they will actually read it and comment on it. They will be drawn to it, fiercely. Do
+                                it the wrong way. .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //cart example/  -->
+
+    <div class="container mt-5">
+        <div class="row g-4">
+            <div class="col-12 col-md=6 col-lg-4">
+                <div class="card border-0 rounded-3">
+                    <div class="card-body">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3"><span
+                                class="square--40 circle text-primary bg-light-primary"><i
+                                    class="fa-solid fa-quote-right" style="color: #c11515;"></i></span></div>
+                        <div class="d-flex align-items-center flex-thumbes">
+                            <div class="revws-pic"><img src="image/aman.jpg" class="img-fluid rounded-2" width="80"
+                                    alt="">
+                            </div>
+                            <div class="revws-caps ps-3">
+                                <h6 class="fw-bold fs-6 m-0">Aman Diwakar</h6>
+                                <p class="text-muted-2 text-md m-0">United States</p>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revws-desc mt-3">
+                            <p class="m-0 text-md">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+                                aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                                nesciunt</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md=6 col-lg-4">
+                <div class="card border-0 rounded-3">
+                    <div class="card-body">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3"><span
+                                class="square--40 circle text-primary bg-light-primary"><i
+                                    class="fa-solid fa-quote-right" style="color: #c11515;"></i></span></div>
+                        <div class="d-flex align-items-center flex-thumbes">
+                            <div class="revws-pic"><img src="image/kunal.jpg" class="img-fluid rounded-2" width="80"
+                                    alt="">
+                            </div>
+                            <div class="revws-caps ps-3">
+                                <h6 class="fw-bold fs-6 m-0">Kunal M. Thakur
+                                </h6>
+                                <p class="text-muted-2 text-md m-0">United States</p>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revws-desc mt-3">
+                            <p class="m-0 text-md">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+                                aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                                nesciunt </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md=6 col-lg-4">
+                <div class="card border-0 rounded-3">
+                    <div class="card-body">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3"><span
+                                class="square--40 circle text-primary bg-light-primary"><i
+                                    class="fa-solid fa-quote-right" style="color: #c11515;"></i></span></div>
+                        <div class="d-flex align-items-center flex-thumbes">
+                            <div class="revws-pic"><img src="image/divya.jpg" class="img-fluid rounded-2" width="80"
+                                    alt="">
+                            </div>
+                            <div class="revws-caps ps-3">
+                                <h6 class="fw-bold fs-6 m-0">Divya Talwar
+                                </h6>
+                                <p class="text-muted-2 text-md m-0">United States</p>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revws-desc mt-3">
+                            <p class="m-0 text-md">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+                                aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                                nesciunt</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md=6 col-lg-4">
+                <div class="card border-0 rounded-3">
+                    <div class="card-body">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3"><span
+                                class="square--40 circle text-primary bg-light-primary"><i
+                                    class="fa-solid fa-quote-right" style="color: #c11515;"></i></span></div>
+                        <div class="d-flex align-items-center flex-thumbes">
+                            <div class="revws-pic"><img src="image/karan.jpg" class="img-fluid rounded-2" width="80"
+                                    alt="">
+                            </div>
+                            <div class="revws-caps ps-3">
+                                <h6 class="fw-bold fs-6 m-0">Karan Maheshwari</h6>
+                                <p class="text-muted-2 text-md m-0">United States</p>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revws-desc mt-3">
+                            <p class="m-0 text-md">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+                                aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                                nesciunt</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md=6 col-lg-4">
+                <div class="card border-0 rounded-3">
+                    <div class="card-body">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3"><span
+                                class="square--40 circle text-primary bg-light-primary">
+                                <i class="fa-solid fa-quote-right" style="color: #c11515;"></i>
+                            </span></div>
+                        <div class="d-flex align-items-center flex-thumbes">
+                            <div class="revws-pic"><img src="image/ritika.jpg" class="img-fluid rounded-2" width="80"
+                                    alt="">
+                            </div>
+                            <div class="revws-caps ps-3">
+                                <h6 class="fw-bold fs-6 m-0">Ritika Mathur</h6>
+                                <p class="text-muted-2 text-md m-0">United States</p>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                    <span class="me-1 text-xs text-warning"><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revws-desc mt-3">
+                            <p class="m-0 text-md">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+                                aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                                nesciunt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5 ">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/a.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Make Your Journey Dehli Tp Paris In Comfortable And Best
+                            Price</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Make Your Journey Dehli Tp Paris In Comfortable And Best
+                            Price</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="image/c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-3">Make Your Journey Dehli Tp Paris In Comfortable And Best
+                            Price</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="conti d-flex mt-5 mb-5 " style="background-color: rgb(161, 44, 44);">
+        <div class="container mt-5 mb-5 ">
+            <h4 class="text-white mx-5">Join our NewsletterTo Keep Up <br>To Date With Us! </h4>
+        </div>
+        <div class="container mt-5 mb-5">
+            <div class="input-group mb-3 ">
+                <input type="text" class="form-control" placeholder="Enter Your Mail" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-dark bg-black text-white " type="button"
+                    id="button-addon2">Subnit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container text-start">
+            <div class="row align-items-start">
+                <div class="col-12 col-sm-4"> <br> <br>
+
+                    <img class="logo " src="image/logo.png" width="200" alt=""> <br> <br>
+                    <span class="table-text"> We make your dream more beautiful &amp; enjoyful with lots of
+                        happiness.</span>
+                    <br>
+                    <br>
+                    <i class="fa-brands fa-square-facebook  fa-2xl" style="color: #3242bd;" aria-hidden="true"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #082555;" aria-hidden="true"></i>
+                    <i class="fa-brands fa-google fa-xl" style="color: #a60c0c;"></i> <i
+                        class="fa-brands fa-twitter  fa-2xl" style="color: #1658ca;" aria-hidden="true"></i>
+                    <i class="fa-brands fa-square-whatsapp fa-2xl " style="color: #4ab61b;" aria-hidden="true"></i>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mt-5">
+                    <h1 class="fs-5 text-center  mb-5"> The Navigation </h1>
+                    <ul class="text-center">
+                        <li class="mt-2"> Talent Marketplace</li>
+                        <li class="mt-2"> Payroll Services</li>
+                        <li class="mt-2">Direct Contracts</li>
+                        <li class="mt-2">Hire Worldwide</li>
+                        <li class="mt-2"> Hire in the USA</li>
+                        <li class="mt-2"> How to Hire</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mt-5">
+                    <h1 class="fs-5 text-center mb-5"> OurResources </h1>
+                    <ul class="text-center">
+                        <li class="mt-2"> Free Businesss Tools</li>
+                        <li class="mt-2"> Affiliate Program</li>
+                        <li class="mt-2">Success Story</li>
+                        <li class="mt-2">Upwork Reviews</li>
+                        <li class="mt-2"> Resources</li>
+                        <li class="mt-2"> Help &amp; Support</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mt-5">
+                    <h1 class="fs-5 text-center  mb-5"> The Company </h1>
+                    <ul class="text-center">
+                        <li class="mt-2"> About US</li>
+                        <li class="mt-2"> Leadership</li>
+                        <li class="mt-2">Contact Us</li>
+                        <li class="mt-2">Investor Relation</li>
+                        <li class="mt-2"> Trust, Safety &amp; Security</li>
+
+                    </ul>
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mt-5">
+                    <h1 class="fs-5 text-center"> Payment Method </h1>
+                    <img src="src/img/payment (1).png" alt="" class="table-logo">
+                    <ul class="text-center">
+                        <li table-text>Our Partners</li>
+                    </ul>
+                    <div class="last">
+                        <div class="me-3 logoo1"> <img class="partner-logo" src="src/img/mytrip.png" alt=""></div>
+                        <div class="logoo1 me-3"><img src="src/img/tripadv.png" alt="" class="partner-logo"></div>
+                        <div class="logoo1"><img src="src/img/goibibo.png" alt="" class="partner-logo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
